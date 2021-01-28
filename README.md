@@ -9,7 +9,7 @@ accepted to [IEEE Internation Conference on Image Processing (ICIP) 2020](https:
 ### Requirements
 
 - Install MATLAB Image Processing Toolbox, Global Optimization Toolbox
-- Download the Camera-fingerprint package from "http://dde.binghamton.edu/download/camera_fingerprint" and run the function "compile.m" in folder "CameraFingerprint/Filter".
+- Download the [Camera-fingerprint](http://dde.binghamton.edu/download/camera_fingerprint) package and run the function `compile.m` in folder `CameraFingerprint/Filter`.
 
 ### Pipeline
 
@@ -31,3 +31,8 @@ Create 3 lists for each device reporting the paths to the noise residuals:
 - `/Noises_lists/train/list_%device_name.npy`
 - `/Noises_lists/valid/list_%device_name.npy`
 - `/Noises_lists/test/list_%device_name.npy`
+
+
+## References
+[1] S. Mandelli, P. Bestagini, L. Verdoliva, S. Tubaro, *Facing device attribution problem for stabilized video sequences*
+IEEE Transactions on Information Forensics and Security 15, 14-27, 2020.
