@@ -1,5 +1,5 @@
 # A Modified Fourier-Mellin Approach for Source Device Identification on Stabilized Videos
-<img src="assets/fm_pipeline.png" width="500">
+<img src="assets/fm_pipeline.png" width="800">
 
 This is the official repository of **A Modified Fourier-Mellin Approach for Source Device Identification on Stabilized Videos**, [IEEE Internation Conference on Image Processing (ICIP) 2020](https://2020.ieeeicip.org/), pp. 1266-1270, 2020 and publicly available on [arXiv](https://arxiv.org/pdf/2005.09984.pdf).
 
