@@ -19,19 +19,13 @@ Given a generic video query and a reference device:
 - run the function `MFM_deltarho_main.m` to test the video
 
 ### Example result
-Run the function `MFM_deltarho_main.m` to evaluate the proposed Modified Fourier Mellin method over a sample query video.  how the 
-- [notebook showing the results](show_results.ipynb)
-- You can find the complete list of results for every model [here](outputs/)
-
-### Extract image noise residuals and device PRNU and save them 
-You can extract them using the Python implementation available [here](https://github.com/polimi-ispl/prnu-python).  
-For each device, create a train-validation-test split, dividing the image noise residuals in 50% training, 25% validation, 25% evaluation.  
-Create 3 lists for each device reporting the paths to the noise residuals: 
-- `/Noises_lists/train/list_%device_name.npy`
-- `/Noises_lists/valid/list_%device_name.npy`
-- `/Noises_lists/test/list_%device_name.npy`
-
+Run the function `MFM_deltarho_main.m` to evaluate the proposed Modified Fourier Mellin method over a sample query video.  
+For this example, the first 20 I-frames of the video named as `D12_V_indoor_move_0001.mp4` have been selected from the Vision dataset [2].
+Their noise residuals were save in `example/test_noises.mat`. The PRNU of device `D12` taken from Vision dataset was saved as `K.mat`.
 
 ## References
 [1] S. Mandelli, P. Bestagini, L. Verdoliva, S. Tubaro, *Facing device attribution problem for stabilized video sequences*,
-IEEE Transactions on Information Forensics and Security 15, 14-27, 2020, old version publicly available on [arXiv](https://arxiv.org/pdf/2005.09984.pdf).
+IEEE Transactions on Information Forensics and Security 15, pp. 14-27, 2020, old version publicly available on [arXiv](https://arxiv.org/pdf/2005.09984.pdf).
+
+[2] D. Shullani, M. Fontani, M. Iuliani, O. Al Shaya, and A. Piva,
+*VISION: a video and image dataset for source identification*. EURASIP Journal on Information Security, 2017(1), p.15, available [here](https://d-nb.info/1147287147/34). 
