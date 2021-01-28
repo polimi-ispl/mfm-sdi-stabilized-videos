@@ -22,7 +22,9 @@ Given a generic video query and a reference device:
 Run the function `MFM_deltarho_main.m` to evaluate the proposed Modified Fourier Mellin method over a sample query video.  
 For this example, the first 20 I-frames of the video named as `D12_V_indoor_move_0001.mp4` have been selected from the Vision dataset [2].
 Their noise residuals were saved in `test_noises.mat`. The scaled and cropped PRNU of device `D12` from Vision dataset was saved as `K.mat`.
-<img src="assets/example_results.png" width="700">
+
+<img src="assets/example_results.png" width="400">
+
 ## References
 [1] S. Mandelli, P. Bestagini, L. Verdoliva, S. Tubaro, *Facing device attribution problem for stabilized video sequences*,
 IEEE Transactions on Information Forensics and Security 15, pp. 14-27, 2020, old version publicly available on [arXiv](https://arxiv.org/pdf/2005.09984.pdf).
