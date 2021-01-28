@@ -1,7 +1,7 @@
 # A Modified Fourier-Mellin Approach for Source Device Identification on Stabilized Videos
-<img src="assets/fm_pipeline.png" width="800">
+<img src="assets/fm_pipeline.png" width="700">
 
-This is the official repository of **A Modified Fourier-Mellin Approach for Source Device Identification on Stabilized Videos**, [IEEE Internation Conference on Image Processing (ICIP) 2020](https://2020.ieeeicip.org/), pp. 1266-1270, 2020 and publicly available on [arXiv](https://arxiv.org/pdf/2005.09984.pdf).
+This is the official repository of **A Modified Fourier-Mellin Approach for Source Device Identification on Stabilized Videos**, accepted to [IEEE Internation Conference on Image Processing (ICIP) 2020](https://2020.ieeeicip.org/) pp. 1266-1270 and publicly available on [arXiv](https://arxiv.org/pdf/2005.09984.pdf).
 
 ## Code
 
@@ -33,5 +33,5 @@ Create 3 lists for each device reporting the paths to the noise residuals:
 
 
 ## References
-[1] S. Mandelli, P. Bestagini, L. Verdoliva, S. Tubaro, *Facing device attribution problem for stabilized video sequences*
-IEEE Transactions on Information Forensics and Security 15, 14-27, 2020, publicly available on [arXiv](https://arxiv.org/pdf/2005.09984.pdf).
+[1] S. Mandelli, P. Bestagini, L. Verdoliva, S. Tubaro, *Facing device attribution problem for stabilized video sequences*,
+IEEE Transactions on Information Forensics and Security 15, 14-27, 2020, old version publicly available on [arXiv](https://arxiv.org/pdf/2005.09984.pdf).
