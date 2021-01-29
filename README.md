@@ -16,6 +16,7 @@ This is the official repository of **A Modified Fourier-Mellin Approach for Sour
 ```matlab
 runtests('test/test_LogPolar_tx.m')
 ```
+In case of test failed, please open an issue on this repository.
 
 ### Pipeline
 
