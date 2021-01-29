@@ -9,6 +9,7 @@ This is the official repository of **A Modified Fourier-Mellin Approach for Sour
 
 - Install MATLAB Image Processing Toolbox, Global Optimization Toolbox
 - Download the [Camera-fingerprint](http://dde.binghamton.edu/download/camera_fingerprint) package and run the function `compile.m` in folder `CameraFingerprint/Filter`.
+- We relied on MATLAB R2018b. For any MATLAB future release, please check the behaviour of function `LogPolar_tx.m` running the test...
 
 ### Pipeline
 
