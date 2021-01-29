@@ -12,15 +12,15 @@ This is the official repository of **A Modified Fourier-Mellin Approach for Sour
 
 ### Pipeline
 
-Given a generic video query and a reference device:
-- extract the I-frames
+Given a video query and a reference device:
+- extract the I-frames from the video
 - extract the noise residuals of the I-frames using the Camera-fingerprint package and save them as `test_noises.mat`
 - extract the device PRNU using the Camera-fingerprint package, then scale and crop it as suggested in [1]. Save it as `K.mat`
 - run the function `MFM_deltarho_main.m` to test the video
 
 ### Example result
 Run the function `MFM_deltarho_main.m` to evaluate the proposed Modified Fourier Mellin method over a sample query video.  
-For this example, the first 20 I-frames of the video named as `D12_V_indoor_move_0001.mp4` have been selected from the Vision dataset [2].
+For this example, the first 12 I-frames of the video named as `D12_V_indoor_move_0001.mp4` have been selected from the Vision dataset [2].
 Their noise residuals were saved in `test_noises.mat`. The scaled and cropped PRNU of device `D12` from Vision dataset was saved as `K.mat`.
 
 <img src="assets/example_results.png" width="500">
