@@ -1,0 +1,7 @@
+language: matlab
+matlab:
+  - latest  # Default MATLAB release on Travis CI
+  - R2020a
+  - R2019b
+  - R2019a
+script: matlab -batch "results = runtests('test/test_LogPolar_tx.m')"
